@@ -1,0 +1,12 @@
+remote: origin
+target-branch: main
+chart-dirs:
+  - charts
+chart-repos:
+  - caju-org=https://caju-org.github.io/hello-helm/
+helm-extra-args: "--timeout 600s"  
+validate-chart-schema: false
+validate-maintainers: true
+validate-yaml: true
+exclude-deprecated: true
+excluded-charts: []
