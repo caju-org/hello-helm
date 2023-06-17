@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  hello-app:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-06-17T18:04:38.472893436Z"
+    description: A Simple Helm chart for a Hello World application
+    digest: ec8bdd85f2ad56d552a2751acb170736368e9fc1c5e2e67e873b4b1c1334e5a7
+    name: hello-app
+    type: application
+    urls:
+    - https://github.com/caju-org/hello-helm/releases/download/hello-app-0.8.0/hello-app-0.8.0.tgz
+    version: 0.8.0
+generated: "2023-06-17T18:04:38.472902736Z"
