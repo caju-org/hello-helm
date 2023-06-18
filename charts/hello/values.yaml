@@ -3,9 +3,9 @@
 replicaCount: 2
 
 image:
-  repository: "busybox"
+  repository: "nginx"
   pullPolicy: IfNotPresent
-  tag: ""
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
