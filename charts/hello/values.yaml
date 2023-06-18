@@ -3,9 +3,9 @@
 replicaCount: 2
 
 image:
-  repository: ""
+  repository: "ghcr.io/caju-org/hello"
   pullPolicy: IfNotPresent
-  tag: ""
+  tag: "0.1.0"
 
 imagePullSecrets: []
 nameOverride: ""
