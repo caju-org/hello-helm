@@ -5,7 +5,7 @@ replicaCount: 2
 image:
   repository: "busybox"
   pullPolicy: IfNotPresent
-  tag: "0.1.0"
+  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
