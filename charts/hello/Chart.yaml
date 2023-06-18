@@ -1,6 +1,11 @@
 apiVersion: v2
-name: hello-app
+name: hello
+version: 0.9.0
 description: A Simple Helm chart for a Hello World application
 type: application
-version: 0.8.0
-appVersion: "0.1.0"
+keywords:
+  - hello-world
+  - test
+maintainers:
+  - name: ovitor
+    email: vitor@caju.rocks

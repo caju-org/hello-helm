@@ -36,6 +36,7 @@ helm.sh/chart: {{ include "hello-app.chart" . }}
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 {{- end }}
 app.kubernetes.io/managed-by: {{ .Release.Service }}
+app.kubernetes.io/developed-by: Caju
 {{- end }}
 
 {{/*
