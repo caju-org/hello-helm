@@ -6,7 +6,7 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 Once Helm has been set up correctly, add the repo as follows:
 
 ```sh
-helm repo add caju-org https://caju-org.github.io/hello-helm
+helm repo add caju-rocks https://caju-rocks.github.io/hello-helm
 ```
 
 ## Helm charts
